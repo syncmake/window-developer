@@ -8,6 +8,9 @@
 
 Its annoying to see web search when using the default search
 
+### Clean storage
+Removing hibernation storage since its not being used. `powercfg -h off` will delete the hiberation file found in storage. `powercfg -h on` if you need it again. 
+
 ### Windows Experimental Terminal
 [terminal](https://github.com/microsoft/terminal)
 
