@@ -28,4 +28,13 @@ Works well with the experimental terminal. There is a shared mount localed in `/
 
 To use a darker theme
 
+### Keyboard shortcuts
+[stackexchange](https://superuser.com/a/1202601)
+otherwise look at `keyboard_layout.reg` to make the changes.
 
+### Bluetooth syncing
+If you dualboot your computer and need to share bluetooth keys between the two system I found it easiest to get the key from windows partition, then switching over to the linux partition and configuring the bluetooth info there. It can generally be found in `/var/lib/bluetooth/[mac]/` 
+
+
+[stackexchange](https://unix.stackexchange.com/a/255510)
+`PsExec.exe -s -i regedit /e C:\BTKeys.reg HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\BTHPORT\Parameters\Keys`
